@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/DaFlusher/huddle-landing-page-with-alternating-feature-blocks-masterr)
-- Live Site URL: [Add live site URL here](https://gregarious-lokum-2071df.netlify.app/)
+- Live Site URL: [Add live site URL here](https://sweet-blancmange-02f371.netlify.app/)
 
 ## My process
 
