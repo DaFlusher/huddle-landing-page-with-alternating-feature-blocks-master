@@ -1,0 +1,42 @@
+@use 'sass:math';
+@use '../components/variables';
+@use '../components/mixins';
+
+section.hero{
+        background: url('/images/bg-hero-desktop.svg') no-repeat center center;
+        background-size: 100% 100%;
+        padding: variables.$base-padding variables.$base-padding*1.5;
+        text-wrap: balance;
+        nav{
+            div{
+                img{
+                    max-height: 1.75rem;
+                }
+            }
+
+        }
+
+        div.hero-section{
+            padding: variables.$base-padding*4 0;
+            div{
+                .h1-text{
+                    font-family: variables.$ff-poppins;
+                    font-weight: map-get(variables.$font-weights,semi-bold);
+                    color: map-get(variables.$neutral,'dark-cyan');
+                    text-transform: capitalize;
+                    padding: variables.$base-padding 0;
+                }
+
+                p{  font-size: 1.125rem;
+                    color: map-get(variables.$neutral,'dark-cyan');
+                    padding: variables.$base-padding 0;
+                    padding-top: 0;
+                    
+                    
+                }
+
+
+            }
+        }
+
+}

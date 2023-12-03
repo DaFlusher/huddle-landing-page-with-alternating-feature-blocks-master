@@ -1,0 +1,20 @@
+{
+  
+  "name": "huddle-landing-page-with-alternating-feature-blocks-master",
+  "version": "1.0.0",
+  "description": "Huddle Homepage Frontendmentor Challenge",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "sass",
+    "huddle",
+    "frontendmentor-challenge"
+  ],
+  "author": "Joy Ibe",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}

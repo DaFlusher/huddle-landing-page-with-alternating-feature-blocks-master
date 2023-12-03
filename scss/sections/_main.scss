@@ -1,0 +1,35 @@
+@use 'sass:math';
+@use '../components/variables';
+@use '../components/mixins';
+
+main{
+    padding: variables.$base-padding variables.$base-padding*1.5;
+    text-wrap: balance;
+    padding-bottom: variables.$base-padding*10;
+    position: relative;
+    
+        div{
+            div.borders{
+                border: variables.$small-border-thickness solid map-get(variables.$neutral, 'pale-cyan');
+                box-shadow: variables.$small-box-shadow;
+                border-radius: 0.625rem;
+                padding: variables.$base-padding*3 variables.$base-padding;
+                margin: variables.$base-margin*2 0;
+                div{
+                    div{
+                        .h2-text{
+                            color: map-get(variables.$neutral, 'dark-cyan');
+                            font-weight: map-get(variables.$font-weights,semi-bold);
+                            font-family: variables.$ff-poppins;
+                            padding: variables.$base-padding 0;
+                            text-transform: capitalize;
+                        }
+                        p{
+                            color: map-get(variables.$neutral,'grayish-blue');
+                        }
+                    }
+                }
+            }
+        }
+    
+}

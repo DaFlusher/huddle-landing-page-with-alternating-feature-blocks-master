@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.mybtn-sm, .mybtn {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  box-shadow: 0 0 10px rgba(0, 37, 46, 0.5);
+  font-weight: 700;
+  transition: background 0.3s ease;
+  text-transform: capitalize;
+  font-size: 0.875rem;
+}
+
+.mybtn {
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  padding: 0.6rem 3rem;
+  border-radius: 30px;
+}
+.mybtn:hover {
+  background-color: #ff6bc9;
+}
+
+.mybtn-sm {
+  color: black;
+  background-color: white;
+  padding: 0.1875rem 1.5rem;
+  border-radius: 20px;
+}
+.mybtn-sm:hover {
+  background-color: black;
+  color: white;
+}
+
+section.hero {
+  background: url("/images/bg-hero-desktop.svg") no-repeat center center;
+  background-size: 100% 100%;
+  padding: 0.75rem 1.125rem;
+  text-wrap: balance;
+}
+section.hero nav div img {
+  max-height: 1.75rem;
+}
+section.hero div.hero-section {
+  padding: 3rem 0;
+}
+section.hero div.hero-section div .h1-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: hsl(192, 100%, 9%);
+  text-transform: capitalize;
+  padding: 0.75rem 0;
+}
+section.hero div.hero-section div p {
+  font-size: 1.125rem;
+  color: hsl(192, 100%, 9%);
+  padding: 0.75rem 0;
+  padding-top: 0;
+}
+
+main {
+  padding: 0.75rem 1.125rem;
+  text-wrap: balance;
+  padding-bottom: 7.5rem;
+  position: relative;
+}
+main div div.borders {
+  border: 0.5px solid hsl(193, 100%, 96%);
+  box-shadow: 0 0 5px rgba(0, 37, 46, 0.5);
+  border-radius: 0.625rem;
+  padding: 2.25rem 0.75rem;
+  margin: 1.5rem 0;
+}
+main div div.borders div div .h2-text {
+  color: hsl(192, 100%, 9%);
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  padding: 0.75rem 0;
+  text-transform: capitalize;
+}
+main div div.borders div div p {
+  color: hsl(208, 11%, 55%);
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  padding: 4.5rem 1.125rem;
+  position: relative;
+  text-wrap: balance;
+}
+footer div.news div.newsletter {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: capitalize;
+  z-index: 2;
+  background-color: white;
+  padding: 1.5rem 1.125rem;
+  box-shadow: 0 0 10px rgba(0, 37, 46, 0.5);
+  border-radius: 0.75rem;
+}
+footer div.news div.newsletter h3.h3-text {
+  color: hsl(192, 100%, 9%);
+  padding: 0.84375rem 0;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+footer div.news div.newsletter button {
+  margin-bottom: 0.84375rem;
+}
+footer div.foot-links {
+  text-align: start;
+  padding-top: 3.75rem;
+  color: white;
+}
+footer div.foot-links div {
+  padding: 0.75rem;
+}
+footer div.foot-links div img {
+  max-height: 1.625rem;
+}
+footer div.foot-links div div.icon-flex {
+  display: flex;
+  padding: 0.75rem 0;
+}
+footer div.foot-links div div.icon-flex img {
+  max-height: 1rem;
+  padding-right: 0.75rem;
+  margin-top: 0.375rem;
+}
+footer div.foot-links div ul {
+  list-style: none;
+  padding: 0;
+  font-size: 0.875rem;
+  line-height: 2rem;
+  text-transform: capitalize;
+  text-align: start;
+}
+footer div.foot-links div ul li {
+  display: block;
+  padding-bottom: 0.75rem;
+  padding-left: 0;
+}
+footer div.foot-links div i {
+  color: white;
+  font-size: 1.25rem;
+  padding: 0 0.75rem;
+}
+footer div.foot-links div p.coyright {
+  font-size: 0.75rem;
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=index.css.map */

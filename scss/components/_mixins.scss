@@ -1,0 +1,52 @@
+@use 'sass:math';
+@use 'variables';
+
+
+%btn{
+  text-decoration: none;
+  font-family: variables.$ff-open;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  box-shadow: variables.$base-box-shadow;
+  font-weight: map-get(variables.$font-weights, bold);
+  transition: background 0.3s ease;
+  text-transform: capitalize;
+  font-size: variables.$font-size-sm;
+}
+
+@mixin mybtn(){
+    @extend %btn;
+    color: white;
+    background-color: variables.$primary;
+    padding: math.div(variables.$base-padding,1.25) variables.$base-padding*4;
+    border-radius: variables.$base-border-radius*1.5;
+    &:hover{
+      background-color: lighten(variables.$primary,5%)
+    }
+    
+};
+
+
+@mixin mybtn-sm{
+  @extend %btn;
+  color: black;
+  background-color: white;
+  padding: math.div(variables.$base-padding,4) variables.$base-padding*2;
+  border-radius: variables.$base-border-radius*1;
+  &:hover{
+    background-color: black;
+    color: white;
+    }
+
+
+};
+
+//adding the button style
+.mybtn {
+  @include mybtn;
+}
+
+.mybtn-sm{
+  @include mybtn-sm;
+}
