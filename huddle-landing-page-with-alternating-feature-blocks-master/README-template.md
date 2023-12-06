@@ -60,7 +60,7 @@ Continued practice of writing sass/scss in a workflow.
 ### Useful resources
 
 - [Example resource 1](https://www.w3schoolscom) - Always my go to site.
-- [Example resource 2](https://www.openai.com) - I recently began using the chatGPT to supercharge my coding experience.
+- [Example resource 2](https://www.chat.openai.com) - I recently began using the chatGPT to supercharge my coding experience.
 
 
 ## Author
